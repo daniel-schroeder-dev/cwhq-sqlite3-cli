@@ -31,7 +31,7 @@ There are 4 commands available:
 | Command              | Description                                          |
 | -------------------- | ---------------------------------------------------- |
 | .exit                | Exits this app                                       |
-| .tables              | Displays the tables in the currently connected DB    |
+| .tables              | Displays the tables in the DB                        |
 | .schema [table_name] | Displays the `CREATE TABLE` statement for this table |
 | .help                | Displays these options                               |
 
