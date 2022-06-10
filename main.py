@@ -65,11 +65,6 @@ def get_query():
         prompt = "   ...> "
 
 
-BOOKS_AUTHORS = 1
-USERS_TEACHERS = 2
-PRODUCTS = 3
-
-
 welcome_message = """
            Welcome to the CWHQ SQLite3 CLI!
 
@@ -99,7 +94,7 @@ sql_command_options = """
                                 SQLite3 CLI Options
 
     .exit                   -> Exits this app
-    .tables                 -> Displays the tables in the currently connected DB
+    .tables                 -> Displays the tables in the DB
     .schema [table_name]    -> Displays the `CREATE TABLE` statement for this table
     .help                   -> Displays these options
 
