@@ -101,13 +101,11 @@ The app creates new DBs for each session and old DBs are wiped out. So, no data 
 You can execute any valid SQLite3 command against the DB and it should work. If you find a query that doesn't work, please file an issue [here](https://github.com/daniel-schroeder-dev/cwhq-sqlite3-cli/issues). 
 
 
-## Example Sessions
+## Example Session
 
-Here's a short example session running the different CLI options:
+Here's a short example session:
 
-
-
-
+![Example sqlite3 CLI session](sqlite3-cli-example-session.gif)
 
 
 ## Contributing
