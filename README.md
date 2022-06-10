@@ -35,6 +35,8 @@ There are 4 commands available:
 | .schema [table_name] | Displays the `CREATE TABLE` statement for this table |
 | .help                | Displays these options                               |
 
+## Pre-Populated Tables
+
 The CLI comes pre-populated with a few tables:
 
 ```text
