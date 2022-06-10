@@ -94,9 +94,18 @@ CREATE TABLE users (
 )
 ```
 
+## Database Persistence
+
+The app creates new DBs for each session and old DBs are wiped out. So, no data you write will exist after exiting the app. 
+
 You can execute any valid SQLite3 command against the DB and it should work. If you find a query that doesn't work, please file an issue [here](https://github.com/daniel-schroeder-dev/cwhq-sqlite3-cli/issues). 
 
-Here's a short example session:
+
+## Example Sessions
+
+Here's a short example session running the different CLI options:
+
+
 
 
 
